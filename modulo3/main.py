@@ -72,7 +72,7 @@ def delete_student(matricula: int, database: Session = Depends(get_database)):
 @app.patch("/estudante/update/{matricula}")
 def update_student(
     matricula: int,
-    estudante: schemas.BaseEstudante,
+    estudante: schemas.EstudanteUpdate,
     database: Session = Depends(get_database),
 ):
     student_from_db = database.query(models.Estudante).filter(

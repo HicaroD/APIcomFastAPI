@@ -14,6 +14,6 @@ class Estudante(Base):
     # Aqui iremos dizer quais os nomes das colunas da tabela lá no
     # banco de dados. Os nomes das variáveis abaixo devem condizer com
     # o nome dado as colunas lá no banco de dados, dessa forma, preste atenção nisso.
-    matricula = Column(Integer, primary_key=True, index=True)
-    nome = Column(String, index=True)
-    idade = Column(Integer, index=True)
+    matricula = Column(Integer, primary_key=True, index=True, nullable=False)
+    nome = Column(String, index=True, nullable=False)
+    idade = Column(Integer, index=True, nullable=False)
