@@ -8,9 +8,3 @@ class BaseEstudante(BaseModel):
 
     class Config:
         orm_mode = True
-
-
-class EstudanteUpdate(BaseEstudante):
-    matricula: int | None = None
-    nome: str | None = None
-    idade: int | None = None
