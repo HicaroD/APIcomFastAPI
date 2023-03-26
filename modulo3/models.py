@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from .database import Base
+from database import Base
 
 
 # Essa classe "Estudante" representa uma tabela em nosso banco de dados.
