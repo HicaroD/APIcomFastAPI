@@ -19,3 +19,6 @@ pip install fastapi "uvicorn[standard]" sqlalchemy
 ```
 
 Obs.: **Não tenho certeza se o primeiro comando funciona no Windows.**
+
+Para ter acesso ao banco de dados SQLite, o qual será usado a partir do módulo 3 do minicurso, faça o download usando [esse link](https://drive.google.com/file/d/1CV5w5L3wMR-00BwVyVsS0nKWeKWeZK74/view?usp=share_link) e cole na pasta raiz do seu projeto (onde ficará seus arquivos `.py` e etc).
+
