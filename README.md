@@ -1,7 +1,8 @@
 # APIswithFastAPI
 
 Código utilizado no módulo 3 e 4 do minicurso de como criar APIs usando Python e FastAPI.
-Caso queira saber onde estão os códigos do primeiro e segundo módulo, acesse [esse link](https://github.com/Rodrigo021/alou).
+Caso queira saber onde estão os códigos do primeiro e segundo módulo, acesse 
+[esse link](https://github.com/Rodrigo021/Minicurso-FastAPI).
 
 ## Pré-requisitos
 
